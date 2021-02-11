@@ -94,3 +94,37 @@ span {
   height: 100px;
   padding: 25px;
 }
+
+.details__section {
+  background-color: #d4d4d4;
+  text-align: center;
+}
+
+.person__card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 450px;
+  width: 350px;
+}
+
+.person__images {
+  display: flex;
+  margin-left: 55px;
+}
+
+.avarat__one {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  margin-left: 0px;
+}
+.person__card > h3 {
+  color: #525252;
+  font-family: "Quicksand", sans-serif;
+}

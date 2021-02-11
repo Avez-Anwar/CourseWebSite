@@ -17,6 +17,7 @@ import Ionic from "./images/ionic.png"
 import Flutter from "./images/flutter.png"
 import Python from "./images/python.png"
 import Aws from "./images/aws.png"
+import Avatar from "./images/avatar.png"
 
 
 function Main() {
@@ -66,7 +67,69 @@ function Main() {
            <img className="image3" src={Python} alt="Python" />
            <img className="image4" src={Aws} alt="Aws" />
            </div>
-        
+          </div>
+
+          <div className="details__section">
+            <h1>Don't take our word for it</h1>
+            <h3>Here's what our students are saying on Twitter about maxedapps and academind_real</h3>
+
+          <div className="person__images">
+             <div className="person__card">
+               <img className="avarat__one" src={Avatar} alt="Avatar" />
+               <h3>Any Name</h3>
+              <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text
+                since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book</h3>
+              
+            </div>
+            <div className="person__card">
+               <img className="avarat__one" src={Avatar} alt="Avatar" />
+               <h3>Any Name</h3>
+              <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text
+                since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book</h3>
+            </div>
+            <div className="person__card">
+               <img className="avarat__one" src={Avatar} alt="Avatar" />
+               <h3>Any Name</h3>
+              <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text
+                since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book</h3>
+            </div>
+           </div> 
+
+
+           <div className="person__images">
+             <div className="person__card">
+               <img className="avarat__one" src={Avatar} alt="Avatar" />
+               <h3>Any Name</h3>
+              <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text
+                since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book</h3>
+              
+            </div>
+            <div className="person__card">
+               <img className="avarat__one" src={Avatar} alt="Avatar" />
+               <h3>Any Name</h3>
+              <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text
+                since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book</h3>
+            </div>
+            <div className="person__card">
+               <img className="avarat__one" src={Avatar} alt="Avatar" />
+               <h3>Any Name</h3>
+              <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text
+                since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book</h3>
+            </div>
+           </div> 
+
           </div>
          
         </div>
